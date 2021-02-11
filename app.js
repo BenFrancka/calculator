@@ -7,7 +7,7 @@
 const addNumber1 = document.getElementById('add-number-1');
 const addNumber2 = document.getElementById('add-number-2');
 const addButton = document.getElementById('add-button');
-const addSolution =document.getElementById('add-solution');
+const addSolution = document.getElementById('add-solution');
 addButton.addEventListener('click', () => {
     console.log(addSolution);
     addSolution.textContent = Number(addNumber1.value) + Number(addNumber2.value);
