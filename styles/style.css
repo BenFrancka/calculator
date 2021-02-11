@@ -30,6 +30,33 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
+body {
+    border: solid rgb(25, 236, 236) thick;
+    background-color: rgba(236, 103, 236, 0.459);
+    font-family: fantasy;
+    color:rgb(61, 121, 2);
+    font-style: large;       
+}
+
+p {
+    font-size: 30px;
+}
+
+button {
+    border:thick 30px;
+    background-color: rgba(131, 235, 235, 0.288);    
+}
+
+input {
+    background-color: rgba(25, 236, 236, 0.411);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(80, 78, 78);
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+
 section {
     background-color: var(--color5);
     width: 1000px;
@@ -51,6 +78,7 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    font-size: 35px;
 }
 
 footer {
