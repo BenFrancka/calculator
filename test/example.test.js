@@ -66,3 +66,12 @@ test('time to test div', (expect) => {
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, sum);
 });
+
+test('add button test', (expect) => {
+    const expected = true;
+    const x = 2;
+    const y = 1;
+    const z = 1;
+    const actual = onClick(x = add(y, z));
+    expect.equal(actual, sum);
+});

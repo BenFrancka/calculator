@@ -40,6 +40,7 @@ body {
 
 p {
     font-size: 30px;
+    margin: auto;
 }
 
 button {
@@ -54,6 +55,7 @@ input {
     color: rgb(80, 78, 78);
     font-weight: bold;
     font-family: fantasy;
+    margin: auto;
 }
 
 
