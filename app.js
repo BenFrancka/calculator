@@ -3,6 +3,7 @@
 // initialize state
 
 // set event listeners to update state and DOM
+import { add, sub, times, div } from '../utilities.js';
 
 const addNumber1 = document.getElementById('add-number-1');
 const addNumber2 = document.getElementById('add-number-2');
@@ -10,7 +11,7 @@ const addButton = document.getElementById('add-button');
 const addSolution = document.getElementById('add-solution');
 addButton.addEventListener('click', () => {
     console.log(addSolution);
-    addSolution.textContent = Number(addNumber1.value) + Number(addNumber2.value);
+    addSolution.textContent = add(Number(addNumber1.value), Number(addNumber2.value));
 });
    
 const subNumber1 = document.getElementById('sub-number-1');
@@ -19,7 +20,7 @@ const subButton = document.getElementById('sub-button');
 const subSolution =document.getElementById('sub-solution');
 subButton.addEventListener('click', () => {
     console.log(subSolution);
-    subSolution.textContent = Number(subNumber1.value) - Number(subNumber2.value);
+    subSolution.textContent = sub(Number(subNumber1.value), Number(subNumber2.value));
 });
 
 const timesNumber1 = document.getElementById('times-number-1');
@@ -28,7 +29,7 @@ const timesButton = document.getElementById('times-button');
 const timesSolution = document.getElementById('times-solution');
 timesButton.addEventListener('click', () => {
     console.log(timesSolution);
-    timesSolution.textContent = Number(timesNumber1.value) * Number(timesNumber2.value);
+    timesSolution.textContent = times(Number(timesNumber1.value), Number(timesNumber2.value));
 });
 
 const divideNumber1 = document.getElementById('divide-number-1');
@@ -37,7 +38,7 @@ const divideButton = document.getElementById('divide-button');
 const divideSolution = document.getElementById('divide-solution');
 divideButton.addEventListener('click' , () => {
     console.log(divideSolution);
-    divideSolution.textContent = Number(divideNumber1.value) / Number(divideNumber2.value);
+    divideSolution.textContent = div(Number(divideNumber1.value), Number(divideNumber2.value));
 });
 
 
