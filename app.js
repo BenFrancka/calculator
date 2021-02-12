@@ -3,7 +3,7 @@
 // initialize state
 
 // set event listeners to update state and DOM
-import { add, sub, times, div } from '../utilities.js';
+import { add, sub, times, div } from './utilities.js';
 
 const addNumber1 = document.getElementById('add-number-1');
 const addNumber2 = document.getElementById('add-number-2');
